@@ -118,8 +118,9 @@ DEVS = (
     1820233416,  # Bagas
     2100131200,  # Kitaro
     5106625166,  # putra
+    1829900877,  # senja
 )
-# Blacklist User for use Xa-Userbot
+# Blacklist User for use Senja-Userbot
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/muhammadrizky16/Kyyblack/master/kyyblacklist.json"
@@ -161,7 +162,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/95447acd924e43f0e40af.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/c298f860e4c5e47a33e09.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -186,9 +187,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Rexashh/Xa-Userbot")
+    "https://github.com/Itsmesenja/Senja-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Xa-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Senja-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -258,8 +259,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .xaalive
-XA_TEKS_KUSTOM = os.environ.get("XA_TEKS_KUSTOM", "ʜᴇʏ, ɪᴍ ᴜsɪɴɢ xᴀ-ᴜsᴇʀʙᴏᴛ⌬")
+# Untuk Perintah .senjaalive
+SENJA_TEKS_KUSTOM = os.environ.get("SENJA_TEKS_KUSTOM", "ʜᴇʏ, ɪᴍ ᴜsɪɴɢ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ㋭")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -282,7 +283,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Xa-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Senja-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "8.2")
@@ -295,17 +296,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/e297bc3e404955d1948d3.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/c298f860e4c5e47a33e09.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/eabe1aacc5b823140b5b8.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/c298f860e4c5e47a33e09.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "⚡"
 
 # °Xa-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/JustRex"
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Itsmesenjaaah"
 
 DEFAULT = list(map(int, b64decode("MTIyNDE0MzU0NA==").split()))
 
@@ -458,7 +459,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @rexaprivateroom and Channel @tirexgugel to see the updates of userbot"
+            "Join Support Group @senjaprivateroom and Channel @itsmesenjah to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -466,7 +467,7 @@ with bot:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**Xa-Userbot v{BOT_VER} is back up and running!**\n\n"
+        f"**Senja-Userbot v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -577,7 +578,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**⚡ Xa-Userbot Inline Menu ⚡**\n\n⌬ **Owner :** [{user.first_name}](tg://user?id={user.id})\n⌬ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**⚡ Senja-Userbot Inline Menu ⚡**\n\n⌬ **Owner :** [{user.first_name}](tg://user?id={user.id})\n⌬ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=xalogo,
@@ -664,33 +665,33 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@XaUserbot"):
+            if event.query.user_id == uid and query.startswith("@SenjaUserbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=xalogo,
                     link_preview=False,
-                    text=f"**⚡ xᴀυѕєʀвᴏт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**⚡ sᴇɴᴊᴀυѕєʀвᴏт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Xa - Userbot",
-                    url="https://t.me/tirexgugel",
+                    description="Repository Senja - Userbot",
+                    url="https://t.me/itsmesenjah",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Xa - Userbot**\n≫≫≫≫≫≫≫≫≫≫\n⌬ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [ʀᴇxᴀ-ᴇx](https://t.me/JustRex)\n⌬ **sᴜᴘᴘᴏʀᴛ :** @rexaprivateroom\n⌬ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Xa-Userbot](https://github.com/Rexashh/Xa-Userbot)\n≫≫≫≫≫≫≫≫≫≫",
+                    text="**Senja - Userbot**\n≫≫≫≫≫≫≫≫≫≫\n⌬ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [sᴇɴᴊᴀ](https://t.me/Itsmesenjaaah)\n⌬ **sᴜᴘᴘᴏʀᴛ :** @senjaprivateroom\n⌬ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/Itsmesenja/Senja-Userbot)\n≫≫≫≫≫≫≫≫≫≫",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/rexaprivateroom"),
+                                "https://t.me/senjaprivateroom"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Rexashh/Xa-Userbot"),
+                                "https://github.com/Itsmesenja/Senja-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -730,23 +731,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="⚡ xᴀυѕєявσт ⚡",
-                    description="Xa Userbot | Telethon",
-                    url="https://t.me/tirexgugel",
+                    title="⚡ sᴇɴᴊᴀυѕєявσт ⚡",
+                    description="Senja Userbot | Telethon",
+                    url="https://t.me/itsmesenjah",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**XaUserbot**\n➖➖➖➖➖➖➖➖➖➖\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @tirexgugel\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**SenjaUserbot**\n➖➖➖➖➖➖➖➖➖➖\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @itsmesenjah\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/rexaprivateroom"),
+                                "https://t.me/senjaprivateroom"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Rexashh/Xa-Userbot"),
+                                "https://github.com/Itsmesenja/Senja-Userbot"),
                         ],
                     ],
                     link_preview=False,

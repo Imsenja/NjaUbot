@@ -1,4 +1,4 @@
-# xa-userbot special
+# nja-userbot special
 # jangan hapus credit memek!
 
 import random
@@ -18,7 +18,7 @@ async def _(event):
         vidlucunya = [
             vidlucu
             async for vidlucu in event.client.iter_messages(
-                "@videolucuxauserbot", filter=InputMessagesFilterVideo
+                "@videolucusenjauserbot", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
@@ -58,7 +58,7 @@ async def _(event):
         sadvidnya = [
             sadvid
             async for sadvid in event.client.iter_messages(
-                "@sadvideorexa", filter=InputMessagesFilterVideo
+                "@sadvideosenja", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
@@ -198,7 +198,7 @@ async def _(event):
         lebarannya = [
             lebaran
             async for lebaran in event.client.iter_messages(
-                "@lebaranxauserbot", filter=InputMessagesFilterPhotos
+                "@lebaransenjauserbot", filter=InputMessagesFilterPhotos
             )
         ]
         xa = await event.client.get_me()
@@ -214,7 +214,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "xaspecial": f"**Plugin : **xaspecial\
+        "xaspecial": f"**Plugin : **njaspecial\
         \n\n  •  **𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 :** {cmd}vl\
         \n  ⌬  **𝙁𝙪𝙣𝙜𝙨𝙞 : **Untuk Mengirim video lucu secara random.\
         \n\n  •  **𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 :** {cmd}ayang\

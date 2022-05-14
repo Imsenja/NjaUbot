@@ -101,7 +101,7 @@ async def bio_xa(bioxa):
 
 CMD_HELP.update(
     {
-        "aboutxa": f"**Plugin : **`aboutnja`\
+        "aboutnja": f"**Plugin : **`aboutnja`\
         \n\n    **Perintah :** `{cmd}njaintro1`\
         \n⌬    **Fungsi : **Perkenalan tentang owner Senja-Userbot.\
         \n\n    **Perintah :** `{cmd}njaintro2`\

@@ -1,7 +1,7 @@
 # Credits: @mrismanaziz
 # FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
 # t.me/SharingUserbot & t.me/Lunatic0de
-# Ported By @JustRex
+# Ported By @Itsmesenjaaah
 
 import asyncio
 import importlib
@@ -49,7 +49,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "xa" + (str(who.id))[5:] + "ubot"
+        username = "senja" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -111,7 +111,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @tirexgugel ⚡️"
+                bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @itsmesenjah ⚡️"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -153,7 +153,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @tirexgugel ⚡️"
+            bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @itsmesenjah ⚡️"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -283,8 +283,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="xa ʟᴏɢs",
-                about="ᴍʏ xᴀ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @rexaprivateroom",
+                title="sᴇɴᴊᴀ ʟᴏɢs",
+                about="ᴍʏ sᴇɴᴊᴀ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @senjaprivateroom",
                 megagroup=True,
             ),
         )

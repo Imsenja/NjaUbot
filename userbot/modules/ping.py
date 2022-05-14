@@ -33,20 +33,20 @@ pacar = [
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sangean** 😎",
 ]
 
-xaown = [
+njaown = [
     "**Hello aku fans mu** 😎 ",
     "**Asikkk dipanggil idola 😚**",
     "**Iya bang?ada apa ya? saya masih fansmu kok**",
     "**Halo bang, saya ngefans** 😁",
-    "**Hi tuan Rexa apakah ada yg bisa saya bantu?**",
+    "**Hi tuan Senja apakah ada yg bisa saya bantu?**",
 ]
 
-xaalive = [
+njaalive = [
     "**im alive ** 😎 ",
     "**hi my owner im already wakeup 🚀**",
     "**Hi my owner how can I help?**",
     "**Hi my owner** 🚀",
-    "**Hi Rexa, you are my owner** 👨‍💻",
+    "**Hi Senja, you are my owner** 👨‍💻",
 ]
 
 
@@ -78,23 +78,23 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
-async def _(Xa):
-    await Xa.reply(random.choice(absen))
+async def _(Nja):
+    await Nja.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1224143544, pattern=r"^.Xa$")
-async def _(Xa):
-    await Xa.reply(random.choice(pacar))
+@register(incoming=True, from_users=1224143544, pattern=r"^.Nja$")
+async def _(Nja):
+    await Nja.reply(random.choice(pacar))
 
 
 @register(incoming=True, from_users=1224143544, pattern=r"^hifans$")
-async def _(Xa):
-    await Xa.reply(random.choice(xaown))
+async def _(Nja):
+    await Nja.reply(random.choice(njaown))
 
 
-@register(incoming=True, from_users=1224143544, pattern=r"^xatest$")
-async def _(Xa):
-    await Xa.reply(random.choice(xaalive))
+@register(incoming=True, from_users=1224143544, pattern=r"^njatest$")
+async def _(Nja):
+    await Nja.reply(random.choice(njaalive))
 
 
 @Xa_cmd(pattern="sping$")
@@ -113,7 +113,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**⌬ Kecepatan : ** '%sms'  \n"
-        f"**⌬ Branch : ** 'Xa-Userbot` \n" % (duration)
+        f"**⌬ Branch : ** 'Senja-Userbot` \n" % (duration)
     )
 
 
@@ -151,7 +151,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**xᴀ ᴜsᴇʀʙᴏᴛ**\n"
+        f"**sᴇɴᴊᴀ ᴜsᴇʀʙᴏᴛ**\n"
         f"⌬ __Signal__    __:__ "
         f"`%sms` \n"
         f"⌬ __Uptime__ __:__ "
@@ -175,7 +175,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**xᴀ-ᴜsᴇʀʙᴏᴛ**\n\n"
+        f"**sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ**\n\n"
         f"** ⌬  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ⌬  Uᴘᴛɪᴍᴇ  :** "
@@ -228,7 +228,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "⌬ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "⌬ **BOT:** 🦖 xᴀ-ᴜsᴇʀʙᴏᴛ 🦖"
+        "⌬ **BOT:** 🐊 sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ 🐊"
     )
 
 

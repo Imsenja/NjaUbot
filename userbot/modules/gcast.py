@@ -28,6 +28,7 @@ GCAST_BLACKLIST = [
     -1001489233533,  # Rumahnya kitaro
     -1001512737035,  # Hiroshi
     -1001506023826,  # venz
+    -1001724086600,  # Senja
 ]
 
 

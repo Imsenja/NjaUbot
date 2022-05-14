@@ -260,7 +260,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .senjaalive
-SENJA_TEKS_KUSTOM = os.environ.get("SENJA_TEKS_KUSTOM", "ʜᴇʏ, ɪᴍ ᴜsɪɴɢ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ㋭")
+XA_TEKS_KUSTOM = os.environ.get("XA_TEKS_KUSTOM", "ʜᴇʏ, ɪᴍ ᴜsɪɴɢ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ㋭")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)

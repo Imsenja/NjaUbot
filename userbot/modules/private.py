@@ -237,7 +237,7 @@ async def users(event):
                 event.chat_id,
                 fileuser,
                 force_document=True,
-                thumb="resources/extras/IMG_20211216_160240_756.jpg",
+                thumb="resources/extras/20220515_032221.jpg",
                 caption="**Total Pengguna Di Bot anda.**",
                 allow_cache=False,
                 buttons=[
@@ -503,7 +503,7 @@ async def bot_start(event):
             start_msg = f"**Users**: {mention}\
                         \n\n**Bot**: [{OWNER}](tg://user?id={OWNER_ID}) \
                         \n**Forward**: True\
-                        \n\n**Powered by**: [Xa-Userbot](https://github.com/Rexashh/Xa-Userbot)"
+                        \n\n**Powered by**: [Senja-Userbot](https://github.com/Itsmesenja/Senja-Userbot)"
             buttons = [
                 (
                     Button.inline("ɪɴꜰᴏ", data="infor"),
@@ -562,7 +562,7 @@ async def _(event):
 async def infor(event):
     await tgbot.send_message(
         event.chat_id,
-        message=f"**Groups**: [sᴜᴘᴘᴏʀᴛ](t.me/rexaprivateroom)\n**Github**: [Xa-Userbot](https://github.com/Rexashh/Xa-Userbot)\n**Deploy**: [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Rexashh/templat-userbot2)",
+        message=f"**Groups**: [sᴜᴘᴘᴏʀᴛ](t.me/senjaprivateroom)\n**Github**: [Senja-Userbot](https://github.com/Itsmesenja/Senja-Userbot)\n**Deploy**: [Heroku](https://dashboard.heroku.com/new?template=https://github.com/Itsmesenja/templat-userbot2)",
         buttons=[
             [
                 custom.Button.inline(

@@ -12,7 +12,6 @@
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
 
-![](https://github.com/Itsmesenja/Senja-Userbot/blob/Senja-Userbot/resources/ezgif-1-47328533dd.gif)
 
 ## ᴅɪsᴄʟᴀɪᴍᴇʀ :
 

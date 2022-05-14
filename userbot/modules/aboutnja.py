@@ -3,14 +3,14 @@ from userbot import CMD_HELP, CMD_HANDLER as cmd
 from userbot.utils import Xa_cmd
 
 
-@Xa_cmd(pattern="xaintro1(?: |$)(.*)")
+@Xa_cmd(pattern="njaintro1(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**HAI!!**")
     sleep(1.5)
     await typew.edit("**Sebelumnya mau bilang**")
     sleep(1.5)
-    await typew.edit("**TERIMAKASIH YANG SUDAH MENGGUNAKAN XA-USERBOT**")
+    await typew.edit("**TERIMAKASIH YANG SUDAH MENGGUNAKAN SENJA-USERBOT**")
     sleep(2)
     await typew.edit("**Maaf Jika buatan Saya tidak sebagus yang lain**")
     sleep(2)
@@ -18,9 +18,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Bye the way**")
     sleep(1.5)
-    await typew.edit("**Saya Asal Kota Bekasi**")
+    await typew.edit("**Saya Asal Kota Jakarta**")
     sleep(2)
-    await typew.edit("**Dan Umur Saya 20 Tahun**")
+    await typew.edit("**Dan Umur Saya 19 Tahun**")
     sleep(1.5)
     await typew.edit("**Hmmmmm**")
     sleep(1.5)
@@ -31,14 +31,14 @@ async def typewriter(typew):
     await typew.edit("**Terimakasih**")
 
 
-@Xa_cmd(pattern="xaintro2(?: |$)(.*)")
+@Xa_cmd(pattern="njaintro2(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "**HALO!!!!Nama Saya Rexa Aditya, Saya pembuat Xa-Userbot hehehe,  asal Kota bekasi, yang satu kota yolah meet wkwk, Bang lu pasti jago coding?? Nope!!! Itu salah bgt, Gua cuma belajar otodidak, terus merhatiin orang orang, Ya pastinya gua juga dibantuin para suhu userbot, btw nih ya Kalo misalnya ada bug atau apapun itu kirim aja ya di gc support ku, atau butuh bantuan silahkan chat aja jgn sungkan**")
+        "**HALO!!!!Nama Saya Valen (senja), Saya pembuat Senja-Userbot hehehe,  asal Kota jakarta, yang satu kota yolah meet wkwk, Bang lu pasti jago coding?? Nope!!! Itu salah bgt, Gua cuma belajar otodidak, terus merhatiin orang orang, Ya pastinya gua juga dibantuin para suhu userbot, btw nih ya Kalo misalnya ada bug atau apapun itu kirim aja ya di gc support ku, atau butuh bantuan silahkan chat aja jgn sungkan**")
 
 
-@Xa_cmd(pattern="xaintro3(?: |$)(.*)")
+@Xa_cmd(pattern="njaintro3(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Okeee di perintah ini saya mau Sharing tentang First Time saya bermain telegram**")
@@ -57,7 +57,7 @@ async def typewriter(typew):
     sleep(1.5)
     await typew.edit("**Udah sih singkatnya gitu aja wkwkw, Ga ada yang menarik dari gua**")
     sleep(1.5)
-    await typew.edit("**kalo awal gua main bot karena gua merasa asik sama bot Rose Dan music milik hiroshi**")
+    await typew.edit("**kalo awal gua main bot karena gua merasa asik sama bot Rose Dan music milik yukki**")
     sleep(1.5)
     await typew.edit("**Gua ga tau apa itu userbot awalnya, sampai ada anak aliansi mainin Clone pake userbot**")
     sleep(1.5)
@@ -65,53 +65,51 @@ async def typewriter(typew):
     sleep(1.5)
     await typew.edit("**dan akhirnya gua dikasih tau, tapi dia ga ngasih gua tutornya, ya akhrinya gua otodidak**")
     sleep(2)
-    await typew.edit("**Intinya Repo Userbot pertama kali yg gua pake itu King Userbot**")
+    await typew.edit("**Intinya Repo Userbot pertama kali yg gua pake itu Xa Userbot**")
     sleep(1.5)
-    await typew.edit("**Repo Music yang pertama kali gua pake itu levina**")
+    await typew.edit("**Repo Music yang pertama kali gua pake itu Yukki**")
     sleep(1.5)
     await typew.edit("**itu aja sih makasih wkwkwk**")
 
 
-@Xa_cmd(pattern="xaintro3(?: |$)(.*)")
+@Xa_cmd(pattern="njaintro3(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**DISINI GA ADA APA APA WKWKWK**")
 
 
-@Xa_cmd(pattern="xaproject(?: |$)(.*)")
+@Xa_cmd(pattern="njaproject(?: |$)(.*)")
 async def project_xa(wannasee):
     await wannasee.edit(
-        f"⌬ **xᴀ ᴍᴜsɪᴄ       :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/xamusicrobot)\n"
-        f"⌬ **ʜɪᴋᴀʀɪ ʀᴏʙᴏᴛ    :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/HikariManageRobot)\n"
-        f"⌬ **xᴀ sᴛʀɪɴɢ ʀᴏʙᴏᴛ :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/xastringrobot)\n"
+        f"⌬ **sᴇɴᴊᴀ ᴍᴜsɪᴄ       :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/senjamusiik_bot)\n"
+        f"⌬ **sᴇɴᴊᴀ sᴛʀɪɴɢ ʀᴏʙᴏᴛ :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/senjastring_robot)\n"
         f"⌬ **sᴇᴍᴜᴀ ʙᴏᴛ sᴇʟᴀʟᴜ sᴀʏᴀ ᴜᴘᴅᴀᴛᴇ\n"
-        f"⌬ **ᴘᴇʀɪᴋsᴀ ᴄʜᴀɴɴᴇʟ : [xᴀ ᴘʀᴏᴊᴇᴄᴛ](https://t.me/tirexgugel)")
+        f"⌬ **ᴘᴇʀɪᴋsᴀ ᴄʜᴀɴɴᴇʟ : [sᴇɴᴊᴀ.ᴘʀᴏᴊᴇᴄᴛ](https://t.me/Itsmesenjah)")
 
 
-@Xa_cmd(pattern="xabio(?: |$)(.*)")
+@Xa_cmd(pattern="njabio(?: |$)(.*)")
 async def bio_xa(bioxa):
     await bioxa.edit(
-        f"👨‍💻 **Nama        : Rexa Aditya\n"
-        f"📅 **TTL         : Bekasi, 20 September 2001\n"
+        f"👨‍💻 **Nama        : Valen (Senja)\n"
+        f"📅 **TTL         : Jakarta, 24 September 2002\n"
         f"🎸 **Genre Music : Pop punk, Metal, Rap, Lofi\n"
         f"👓 **Hobi        : Music, Novel, Film, Anime\n"
-        f"🌍 **Instagram   :**[ᴋʟɪᴋ ᴀᴊᴀ](https://www.instagram.com/syhndr_/)\n"
-        f"🎵 **Telegram    :**[ᴋʟɪᴋ ᴀᴊᴀ](https://t.me/JustRex)\n"
-        f"👨‍🚀 **Tiktok      :**[ᴋʟɪᴋ ᴀᴊᴀ](https://vt.tiktok.com/ZSd2tSP21/)\n"
+        f"🌍 **Instagram   :**[ᴋʟɪᴋ ᴀᴊᴀ](https://www.instagram.com/itsmesenjaaah/)\n"
+        f"🎵 **Telegram    :**[ᴋʟɪᴋ ᴀᴊᴀ](https://t.me/Itsmesenjaaah)\n"
         f"Untuk lebih jelasnya tanya aja sendiri")
 
 
 CMD_HELP.update(
     {
-        "aboutxa": f"**Plugin : **`aboutxa`\
-        \n\n    **Perintah :** `{cmd}xaintro1`\
-        \n⌬    **Fungsi : **Perkenalan tentang owner Xa-Userbot.\
-        \n\n    **Perintah :** `{cmd}xaintro2`\
-        \n⌬    **Fungsi : **Perkenalan tentang owner Xa-Userbot 2.\
-        \n\n    **Perintah :** `{cmd}xaintro3`\
-        \n⌬    **Fungsi : **Perkenalan Tentang Owner Xa - Userbot 3.\
-        \n\n    **Perintah :** `{cmd}xaproject`\
-        \n⌬    **Fungsi : **Semua Tentang Project Bot Xa.\
-        \n\n    **Perintah :** `{cmd}xabio`\
-        \n⌬    **Fungsi : **Biodata Owner Xa - Userbot."
+        "aboutxa": f"**Plugin : **`aboutnja`\
+        \n\n    **Perintah :** `{cmd}njaintro1`\
+        \n⌬    **Fungsi : **Perkenalan tentang owner Senja-Userbot.\
+        \n\n    **Perintah :** `{cmd}njaintro2`\
+        \n⌬    **Fungsi : **Perkenalan tentang owner Senja-Userbot 2.\
+        \n\n    **Perintah :** `{cmd}njaintro3`\
+        \n⌬    **Fungsi : **Perkenalan Tentang Owner Senja - Userbot 3.\
+        \n\n    **Perintah :** `{cmd}njaproject`\
+        \n⌬    **Fungsi : **Semua Tentang Project Bot Nja.\
+        \n\n    **Perintah :** `{cmd}njabio`\
+        \n⌬    **Fungsi : **Biodata Owner Senja - Userbot."
     })

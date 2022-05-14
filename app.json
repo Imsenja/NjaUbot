@@ -1,7 +1,7 @@
 {
-  "name": "Xa-Userbot",
+  "name": "Senja-Userbot",
   "description": "USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9b010ead0692e3bc28df6.jpg",
+  "logo": "https://telegra.ph/file/c298f860e4c5e47a33e09.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Rexashh/Xa-Userbot/Xa-Userbot",
-  "telegram": "https://t.me/JustRex",
-  "success_url": "https://t.me/rexaprivateroom",
+  "repository": "https://github.com/Itsmesenja/Senja-Userbot/Senja-Userbot",
+  "telegram": "https://t.me/Itsmesenjaaah",
+  "success_url": "https://t.me/senjaprivateroom",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di bot @xastringronbot",
+      "description": "Dapatkan String Session di bot @senjastring_robot",
       "required": true
     },
     "HEROKU_APP_NAME": {

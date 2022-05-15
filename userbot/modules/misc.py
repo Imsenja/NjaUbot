@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Rexashh/Xa-Userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Itsmesenja/Senja-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -59,7 +59,7 @@ async def sleepybot(time):
 @Xa_cmd(pattern="shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Xa-Userbot....`")
+    await event.edit("`Mematikan Senja-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @Xa_cmd(pattern="restart$")
 async def killdabot(event):
-    await event.edit("`Bentar cok, Lagi Restart Xa-Userbot...`")
+    await event.edit("`Bentar cok, Lagi Restart Senja-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Xa-Userbot Repo](https://github.com/Rexashh/Xa-Userbot/blob/Xa-Userbot/README.md)"
+        "\n[✨ Senja-Userbot Repo](https://github.com/Itsmesenja/Senja-Userbot/blob/Senja-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -108,12 +108,12 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**ʜᴇʏ**, ᴛʜɪs ɪs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ **xᴀ-ᴜsᴇʀʙᴏᴛ🦖** \n"
+        "**ʜᴇʏ**, ᴛʜɪs ɪs ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ **sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ🐊** \n"
         "━━━━━━━━━━━\n"
-        "⌬ **ʀᴇᴘᴏ    :** [ɢɪᴛʜᴜʙ](https://github.com/Rexashh/Xa-Userbot)\n"
-        "⌬ **ᴏᴡɴᴇʀ  :** [xᴀ](t.me/JustRex)\n"
-        "⌬ **sᴜᴘᴏʀᴛ  :** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/rexaprivateroom)\n"
-        "⌬ **ᴄʜᴀɴɴᴇʟ :** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/tirexgugel)\n"
+        "⌬ **ʀᴇᴘᴏ    :** [ɢɪᴛʜᴜʙ](https://github.com/Itsmesenja/Senja-Userbot)\n"
+        "⌬ **ᴏᴡɴᴇʀ  :** [sᴇɴᴊᴀ](t.me/Itsmesenjaaah)\n"
+        "⌬ **sᴜᴘᴏʀᴛ  :** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/senjaprivateroom)\n"
+        "⌬ **ᴄʜᴀɴɴᴇʟ :** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/itsmesenjah)\n"
         "━━━━━━━━━━━\n"
     )
 
@@ -123,7 +123,7 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
         f"⌬ **ᴠɪᴀ ʀᴇᴘʟɪᴛ  :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://replit.com/@rizkyhmdanii16/StringSession)\n"
-        f"⌬ **ᴠɪᴀ ʙᴏᴛ    :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/xastringrobot)\n"
+        f"⌬ **ᴠɪᴀ ʙᴏᴛ    :** [ᴋʟɪᴋ ᴅɪsɪɴɪ](https://t.me/senjastring_robot)\n"
     )
 
 
@@ -274,11 +274,11 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     f"sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}sleep <seconds>`\
     \n↳ : `{cmd}sleep`\
-    \n  •  **Function : Biarkan Xa-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Senja-Userbot tidur selama beberapa detik.",
     f"shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}shutdown`\
     \n↳ : Mematikan bot",
     f"repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}repo`\
-    \n↳ : Menampilan link Repository Xa-Userbot.",
+    \n↳ : Menampilan link Repository Senja-Userbot.",
     f"string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}string`\
     \n↳: Menampilkan link String bang Kyy-Userbot",
     f"readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `{cmd}readme`\

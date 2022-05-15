@@ -214,7 +214,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "xaspecial": f"**Plugin : **njaspecial\
+        "njaspecial": f"**Plugin : **njaspecial\
         \n\n  •  **𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 :** {cmd}vl\
         \n  ⌬  **𝙁𝙪𝙣𝙜𝙨𝙞 : **Untuk Mengirim video lucu secara random.\
         \n\n  •  **𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 :** {cmd}ayang\

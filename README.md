@@ -27,7 +27,7 @@ klik tombol dibawah ini untuk melihat tutorial deploy senja userbot :
 
 ## ᴅᴇᴘʟᴏʏ :
 
-<p align="left"><a href="https://telegram.dog/XTZ_HerokuBot?start=UmV4YXNoaC9YYS1Vc2VyYm90IFhhLVVzZXJib3Q"> <img src="https://img.shields.io/badge/Deploy%20On%20Telegram-blue?style=for-the-badge&logo=telegram" width="200" height="35.60" /></a></p>
+<p align="left"><a href="https://telegram.dog/XTZ_HerokuBot?start=SXRzbWVzZW5qYS9TZW5qYS1Vc2VyYm90IFNlbmphLVVzZXJib3Q"> <img src="https://img.shields.io/badge/Deploy%20On%20Telegram-blue?style=for-the-badge&logo=telegram" width="200" height="35.60" /></a></p>
 <p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Itsmesenja/Senja-Userbot/tree/Senja-Userbot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-indigo?style=for-the-badge&logo=heroku" width="200" height="35.60" /></a></p>
 
 

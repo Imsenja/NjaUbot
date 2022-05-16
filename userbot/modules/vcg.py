@@ -176,7 +176,7 @@ async def vc_end(event):
 
 CMD_HELP.update(
     {
-        "vctools": f"**Plugin : **`vctools`\
+        "vctools": f"**Plugin : **`vcg`\
         \n\n  •  **Syntax :** `{cmd}startvc`\
         \n  •  **Function : **Untuk Memulai voice chat group\
         \n\n  •  **Syntax :** `{cmd}stopvc`\

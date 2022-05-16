@@ -37,7 +37,7 @@ def user_list(l, n):
         yield l[i : i + n]
 
 
-@cilik_cmd(pattern="startvc$")
+@senja_cmd(pattern="startvc$")
 @register(pattern=r"^\.startvcs$", sudo=True)
 async def start_voice(c):
     me = await c.client.get_me()
@@ -55,7 +55,7 @@ async def start_voice(c):
         await edit_delete(c, f"**ERROR:** `{ex}`")
 
 
-@cilik_cmd(pattern="stopvc$")
+@senja_cmd(pattern="stopvc$")
 @register(pattern=r"^\.stopvcs$", sudo=True)
 async def stop_voice(c):
     me = await c.client.get_me()
@@ -73,7 +73,7 @@ async def stop_voice(c):
         await edit_delete(c, f"**ERROR:** `{ex}`")
 
 
-@cilik_cmd(pattern="vcinvite")
+@senja_cmd(pattern="vcinvite")
 async def _(c):
     xxnx = await edit_or_reply(c, "`Inviting Members to Voice Chat...`")
     users = []
@@ -91,7 +91,7 @@ async def _(c):
     await xxnx.edit(f"`{z}` **Orang Berhasil diundang ke VCG**")
 
 
-@cilik_cmd(pattern="vctitle(?: |$)(.*)")
+@senja_cmd(pattern="vctitle(?: |$)(.*)")
 @register(pattern=r"^\.cvctitle$", sudo=True)
 async def change_title(e):
     title = e.pattern_match.group(1)
@@ -113,7 +113,7 @@ async def change_title(e):
         await edit_delete(e, f"**ERROR:** `{ex}`")
 
 
-@cilik_cmd(pattern="joinvc(?: |$)(.*)")
+@senja_cmd(pattern="joinvc(?: |$)(.*)")
 @register(pattern=r"^\.joinvcs(?: |$)(.*)", sudo=True)
 async def _(event):
     Man = await edit_or_reply(event, "`Processing...`")
@@ -151,7 +151,7 @@ async def _(event):
             await Man.edit(f"**INFO:** `{e}`")
 
 
-@cilik_cmd(pattern="leavevc(?: |$)(.*)")
+@senja_cmd(pattern="leavevc(?: |$)(.*)")
 @register(pattern=r"^\.leavevcs(?: |$)(.*)", sudo=True)
 async def vc_end(event):
     Man = await edit_or_reply(event, "`Processing...`")

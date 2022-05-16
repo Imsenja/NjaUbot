@@ -26,6 +26,13 @@ from userbot.events import register
 from userbot.utils import edit_delete, edit_or_reply, Xa_cmd
 
 
+def vcmention(user):
+    full_name = get_display_name(user)
+    if not isinstance(user, types.User):
+        return full_name
+    return f"[{full_name}](tg://user?id={user.id})"
+
+
 async def get_call(event):
     mm = await event.client(getchat(event.chat_id))
     xx = await event.client(getvc(mm.full_chat.call, limit=1))

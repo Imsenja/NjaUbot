@@ -421,7 +421,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Xa-Userbot"
+    session = "Senja-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -438,9 +438,9 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str(pybase64.b64decode("QHNlbmphcHJpdmF0ZXJvb20==="))[2:17]
-    checker = str(pybase64.b64decode("QGl0c21lc2VuamFo=="))[2:8]
-    checker2 = str(pybase64.b64decode("QHB1bnlhc2VuamFhYWg="))[2:12]
+    gocheck = str(pybase64.b64decode("QHNlbmphcHJpdmF0ZXJvb20=="))[2:19]
+    checker = str(pybase64.b64decode("QGl0c21lc2VuamFo=="))[2:14]
+    checker2 = str(pybase64.b64decode("QHB1bnlhc2VuamFhYWg="))[2:16]
     try:
         await bot(GetSec(gocheck))
     except BaseException:

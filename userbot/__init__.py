@@ -670,7 +670,7 @@ with bot:
                 result = await event.builder.photo(
                     file=xalogo,
                     link_preview=False,
-                    text=f"**🗿 sᴇɴᴊᴀυѕєʀвᴏт ɪɴʟɪɴᴇ ᴍᴇɴᴜ 🗿**\n\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**⚡ sᴇɴᴊᴀυѕєʀвᴏт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n⌬ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n⌬ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
